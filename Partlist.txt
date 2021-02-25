@@ -1,0 +1,33 @@
+Partlist
+
+Exported from A1000RTC.brd at 19.12.20 19:40
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value            Package       Library       Position (mil)        Orientation
+
+BATT     MS920SE          BATTCON_9.5MM Amiga Matze   (2300 1690)           MR90
+C1       47uF             C1210         rcl           (990 1750)            R90
+C2       100n             C0805         rcl           (2710 1540)           R270
+C3       100n             C0805         rcl           (1182 1930)           R0
+C4       100n             C0805         rcl           (990 1932)            R0
+C5       22uF             C1210         rcl           (2462 1536)           R180
+C6       100n             C0805         rcl           (1036 1470)           MR0
+D1       BAT54W           SOD123        diode         (1730 2028)           R180 (or any other Schottky diode with uf<=0.3v)
+D2       BAT54W           SOD123        diode         (1940 1820)           R0  (or any other Schottky diode with uf<=0.3v)
+D3       BAT54W           SOD123        diode         (790 1740)            R90 (or any other Schottky diode with uf<=0.3v)
+IC1                       DIL64         micro-mc68000 (1900 1700)           R0
+IC2                       DIL64         micro-mc68000 (1900 1810)           R0
+IC3      74AC00D          SO14          74xx-eu       (2514 1864)           R270
+IC4      74HCT688DW       SO20W         74xx-eu       (970 1776)            MR90
+IC5      74HCT86D         SO14          74xx-eu       (1546 1768)           MR270
+JP1                       JP1           jumper        (1888 1534)           MR90
+Q1       TLV1117          SOT223-4      ti-parts      (1290 1720)           R270
+R1       10k              R0805         rcl           (3352 1590)           R90
+R2       620              R0805         rcl           (1974.59843 2028)     R0
+R3       10k              R0805         rcl           (1900 1666)           MR180
+R4       10k              R0805         rcl           (3058 2042)           MR0
+R5       10k              R0805         rcl           (3058 1912)           MR0
+U1       MSM62X42BGSSOP24 SOP24         OKI MSM6242B  (3048 1782)           R90

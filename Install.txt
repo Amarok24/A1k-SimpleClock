@@ -1,0 +1,30 @@
+Amiga 500/2000
+ - JP1 OPEN
+ - nothing to install (simple, eh? :D)
+
+Extract A1kSimpleClock.lha
+
+Amiga 1000 
+(Workbench1.3)
+
+JP1 = CLOSED
+ - Copy setclock from A1kSimpleClock.lha to Sys:C and replace original setclock
+ - Restart Amiga 
+
+
+Amiga 1000
+(Workbench 3.x)
+
+JP1 = CLOSED
+ - Copy battclock.resource from A1kSimpleClock.lha to Sys:libs/resources/
+ - Copy LoadModule to Sys:C
+    -> You can get it here: https://aminet.net/package/util/boot/LoadModule
+ - Edit S:startup-sequence and insert as first line
+C:LoadModule LIBS:resources/battclock.resource DOWNGRADE
+ - Save S:startup-sequence
+ - Restart Amiga
+
+
+After first startup the A1kSimpleClock, it might be necessary to reset the clock.
+Type in CLI: setclock reset
+
