@@ -1,5 +1,10 @@
-This is a Realtime Clock for Amiga 500 and Amiga 1000 Computers, wich\
+A1k SimpleClock
+===============  
+
+This is an easy to build D.I.Y. Realtime Clock (RTC) for Amiga 500 and Amiga 1000 Computers, which\
 will fit under the 68k CPU or any turboboard for 68k sockets.\
+\
+![Alt-Text](https://gitlab.com/marceljaehne/a1k-simpleclock/-/raw/master/Bilder/21-02-26_21-03-18_5550.jpg)\
 \
 For use in Amiga1000 and Kick1.3 you need a patched setclock binary.\
 For use in Amiga1000 and Kick >= 2.0 you need a patched battclock_resource modul.\
@@ -30,4 +35,12 @@ ah, btw. every SOD123 Schottky Diode with uf<=0.3V will work\
 **DISCLAIMER!!!!**\
 **THIS IS A HOBBYIST PROJECT! I'M NOT RESPONSIBLE IF IT DOESN'T WORK OR DESTROYS YOUR VALUABLE DATA OR HARDWARE!**\
 \
-https://mytube.madzel.de/videos/watch/4dbfa021-77f8-47c4-a0fa-2a3ab73ecad1
+https://mytube.madzel.de/videos/watch/4dbfa021-77f8-47c4-a0fa-2a3ab73ecad1 \
+\
+You can find more information at:\
+https://www.a1k.org/forum/index.php?threads/77371/ 
+\
+\
+Original Source is: https://gitlab.com/marceljaehne/a1k-simpleclock/
+
+
